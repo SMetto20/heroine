@@ -8,4 +8,13 @@ public class Squad {
     private int mSize;
     private String mCause;
     public String mGender;
+
+    public Squad (int size, String cause, String gender, String name){
+        this.mSize = size;
+        this.mCause= cause;
+        this.mGender=gender;
+        this.mName=name;
+        this.instances.add(this);
+
+    }
 }
