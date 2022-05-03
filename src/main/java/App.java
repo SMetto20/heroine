@@ -11,6 +11,24 @@ import spark.template.handlebars.HandlebarsTemplateEngine;
 
 
 public class App {
+    public static String name;
+    public static String power;
+    public static String weakness;
+    public static String age;
+    public static String height;
+
+
+    public static Squad divers = new Squad(6,"saving marine life","mixed","divers");
+    public static Squad dayLightSavers = new Squad(10,"protecting against darkness","male","daylightsavers");
+    public static Squad femmeous = new Squad(10,"protecting women","female","femmeous");
+    public static Squad spinBots = new Squad(12,"protects against hackers","mixed","spinbots");
+
+    static Squad[] squadList ={divers,dayLightSavers,femmeous,spinBots};
+
+    //    public List <Squad> squadList =new ArrayList<Squad>();
+//    squadList.add("hello")
+    static List squad2 = Arrays.asList(squadList);
+
     public static void main(String[] args) {
 //
 
