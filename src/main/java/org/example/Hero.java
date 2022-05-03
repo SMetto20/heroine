@@ -13,5 +13,14 @@ public class Hero {
         this.age = age;
         this.weakness=weakness;
     }
+    public String getName(){
+        return name;}
+    public int getHeight(){
+        return height;}
+    public String getPower(){
+        return power;}
+    public int getAge(){
+        return age;}
+    public String getWeakness(){ return weakness;}
 
 }
