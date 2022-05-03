@@ -88,7 +88,7 @@ color: #FFFFFF;
 position: absolute;
 width: 526px;
 height: 78px;
-left: 45px;
+left: 110px;
 top: 336px;
 
 font-family: 'Poppins';
@@ -106,7 +106,7 @@ color: #000000;
 position: absolute;
 width: 408px;
 height: 18px;
-left: 58px;
+left: 170px;
 top: 434px;
 
 font-family: 'Inter';
@@ -121,7 +121,7 @@ color: #000000;
 position: absolute;
 width: 364px;
 height: 19px;
-left: 102px;
+left: 200px;
 top: 473px;
 
 font-family: 'Inter';
@@ -137,7 +137,7 @@ color: #000000;
 position: absolute;
 width: 455px;
 height: 19px;
-left: 45px;
+left: 150px;
 top: 524px;
 
 font-family: 'Inter';
@@ -162,7 +162,7 @@ background: #0E1429;
 position: absolute;
 width: 216px;
 height: 46px;
-left: 159px;
+left: 230px;
 top: 596px;
 
 background: #0E1429;
@@ -211,7 +211,7 @@ background: #FFFFFF;
 position: absolute;
 width: 1411px;
 height: 741px;
-left: 51px;
+left: 20px;
 top: 133px;
 
 background: #E7F7F8;
@@ -417,7 +417,7 @@ top: 1289px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 12px;
 line-height: 24px;
 /* identical to box height */
 
@@ -505,5 +505,232 @@ height: 362px;
 left: 553px;
 top: 1213px;
 }
+.squad{
+
+display flex
+
+}
+.choose{
+position: absolute;
+width: 527px;
+height: 96px;
+left: 556px;
+top: 1729px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 96px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.waterman{
+position: absolute;
+width: 418px;
+height: 452px;
+left: 101px;
+top: 1846px;
+}
+.flash{
+position: absolute;
+width: 360px;
+height: 423px;
+left: 583px;
+top: 1862px;
+
+}
+.wonder{
+position: absolute;
+width: 326px;
+height: 391px;
+left: 1063px;
+top: 1852px;
+}
+.bot{
+position: absolute;
+width: 269px;
+height: 375px;
+left: 640px;
+top: 2570px;
+
+}
+.footer2{
+position: absolute;
+width: 1514px;
+height: 321px;
+left: 0px;
+top: 3200px;
+
+background: #0E1429;
+}
+.contactus{
+position: absolute;
+width: 132px;
+height: 34px;
+left: 205px;
+top: 1122px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+}
+.email{
+position: absolute;
+width: 132px;
+height: 34px;
+left: 205px;
+top: 1150px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+}
+.phone{
+position: absolute;
+width: 221px;
+height: 24px;
+left: 210px;
+top: 1230px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.fax{
+position: absolute;
+width: 221px;
+height: 24px;
+left: 181px;
+top: 1208px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.follow{
+position: absolute;
+width: 146px;
+height: 36px;
+left: 928px;
+top: 1121px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.twitter{
+position: absolute;
+width: 159px;
+height: 24px;
+left: 929px;
+top: 1176px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.instagram{
+position: absolute;
+width: 166px;
+height: 24px;
+left: 926px;
+top: 1225px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.copy{
+position: absolute;
+width: 77px;
+height: 24px;
+left: 710px;
+top: 1319px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.heroinedown{
+position: absolute;
+width: 100px;
+height: 24px;
+left: 698px;
+top: 1353px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+}
+
+
+
+
+
 
 
