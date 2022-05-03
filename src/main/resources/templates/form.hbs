@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/css/app.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+{{#partial "nav"}}
+    <div class="nav">
+        <p class="heroine">Heroine</p>
+        <p class="home">home</p>
+        <p class="create">create your hero </p>
+        <p class="contact"> contact us</p>
+    </div>
+{{/partial}}
+{{#partial "content"}}
+    <div class="overallform">
+        <div class="form">
+            <form action = "/form" >
+                <p class="new">Create a new hero</p>
+                <div>
+                    <label for="name" class="enter"> Enter your hero's name</label>
+                    <input type="text" id="name" name = "name" class="input1">
+                </div>
+                <div>
+                    <label for="age" class="age">Their age</label>
+                    <input type="number" id="age" name="age" class="input2">
+                </div>
+                <div>
+                    <label for="height" class="tall">How tall are they?</label>
+                    <input type="number" name="height" id="height" class="input4">
+                </div>
+                <div>
+                    <label for="power" class="power">what is their super power</label>
+                    <input type="text" name="power" id="power" class="input3">
+                </div>
+                <div>
+                    <label for="weakness" class="weakness">Their weakness is</label>
+                    <input type="text" name="weakness" id="weakness" class="input5">
+                </div>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <img src="/images/hulk-removebg-preview.png" alt="" class="hulk">
+    <p class="details"> Hero  Details</p>
+    <div>
+        <p class="heroname">Your hero's name is {{name}}</p>
+        <p class="heroyears">your hero is {{age}} years old</p>
+        <p class="cm">They are {{height}}cm tall </p>
+        <p class="superpower">Their superpower is {{power}}</p>
+        <p class="weaknesstext">Their weakness is {{weakness}}</p>
+    </div>
+    <img src="/images/spider1-removebg-preview.png" alt="" class="spider">
+    <div>
+        <p>here are the squads</p>
+            <!--{{#each mySquad}}-->
+        <p> Squad name: <strong>{{name}}</strong></p>
+        <p> Our cause: {{cause}}</p>
+        <p>Sex of participants:{{gender}}</p>
+        <p> Squad size: {{size}}</p>
+        <button>Choose squad</button>
+            <!--{{/each}}-->
+    </div>
+{{/partial}}
+</body>
+
+</html>
+{{> layout.hbs}}
