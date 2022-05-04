@@ -8,6 +8,7 @@ public class Squad {
     private int mSize;
     private String mCause;
     public String mGender;
+    private boolean diver;
 
     public Squad (int size, String cause, String gender, String name){
         this.mSize = size;
@@ -36,5 +37,6 @@ public class Squad {
     public static ArrayList<Squad> getAll() {
         return instances;
     }
+
 
 }

@@ -2,6 +2,7 @@
   padding:0%;
   margin:0%;
   font-family:'poppins'
+  overflow-x:hidden;
 
 }
 .nav{
@@ -767,6 +768,166 @@ border:none;
 border-radius:8px;
 width: 130px;
 height: 37px;
+
+}
+.contactus2{
+position: absolute;
+width: 132px;
+height: 34px;
+left: 205px;
+top: 3250px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+}
+.email2{
+position: absolute;
+width: 132px;
+height: 34px;
+left: 205px;
+top: 3300px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+}
+.phone2{
+position: absolute;
+width: 221px;
+height: 24px;
+left: 210px;
+top: 3400px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.fax{
+position: absolute;
+width: 221px;
+height: 24px;
+left: 181px;
+top: 1208px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.follow2{
+position: absolute;
+width: 146px;
+height: 36px;
+left: 928px;
+top: 3250px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.twitter2{
+position: absolute;
+width: 159px;
+height: 24px;
+left: 929px;
+top: 3320px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.instagram2{
+position: absolute;
+width: 166px;
+height: 24px;
+left: 926px;
+top: 3380px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.copy2{
+position: absolute;
+width: 77px;
+height: 24px;
+left: 710px;
+top: 3450px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.heroinedown2{
+position: absolute;
+width: 100px;
+height: 24px;
+left: 698px;
+top: 3480px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
 
 }
 
