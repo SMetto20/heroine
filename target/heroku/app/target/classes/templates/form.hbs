@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/css/app.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+{{#partial "nav"}}
+    <div class="nav">
+        <p class="heroine">Heroine</p>
+        <p class="home">home</p>
+        <p class="create">create your hero </p>
+        <p class="contact"> contact us</p>
+    </div>
+{{/partial}}
+{{#partial "content"}}
+    <div class="overallform">
+        <div class="form">
+            <form action = "/form" >
+                <p class="new">Create a new hero</p>
+                <div>
+                    <label for="name" class="enter"> Enter your hero's name</label>
+                    <input type="text" id="name" name = "name" class="input1">
+                </div>
+                <div>
+                    <label for="age" class="age">Their age</label>
+                    <input type="number" id="age" name="age" class="input2">
+                </div>
+                <div>
+                    <label for="height" class="tall">How tall are they?</label>
+                    <input type="number" name="height" id="height" class="input4">
+                </div>
+                <div>
+                    <label for="power" class="power">what is their super power</label>
+                    <input type="text" name="power" id="power" class="input3">
+                </div>
+                <div>
+                    <label for="weakness" class="weakness">Their weakness is</label>
+                    <input type="text" name="weakness" id="weakness" class="input5">
+                </div>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <img src="/images/hulk-removebg-preview.png" alt="" class="hulk">
+    <p class="details"> Hero  Details</p>
+    <div>
+        <p class="heroname">Your hero's name is {{name}}</p>
+        <p class="heroyears">your hero is {{age}} years old</p>
+        <p class="cm">They are {{height}}cm tall </p>
+        <p class="superpower">Their superpower is {{power}}</p>
+        <p class="weaknesstext">Their weakness is {{weakness}}</p>
+    </div>
+    <img src="/images/spider1-removebg-preview.png" alt="" class="spider">
+    <div>
+        <p class="choose">Choose a squad</p>
+        <img src="/images/waterman-removebg-preview.png" alt="" class="waterman">
+        <img src="/images/the_flash2-removebg-preview.png" alt="" class="flash">
+        <img src="/images/wonder1-removebg-preview.png" alt="" class="wonder">
+        <img src="/images/warsbot-removebg-preview.png" alt="" class="bot">
+
+
+    </div>
+    <div class="diverssquad">
+        <p > our name: <strong>{{dn}}</strong></p>
+        <p>Our cause:<strong>{{dc}}</strong></p>
+        <p>Sex:<strong>{{dg}}</strong></p>
+        <p>Size:<strong>{{ds}}</strong></p><br>
+
+     <button >Choose Squad</button>
+
+    </div>
+<div class="daylight">
+    <p > our name: <strong>{{sn}}</strong></p>
+    <p>Our cause:<strong>{{sc}}</strong></p>
+    <p>Sex:<strong>{{sg}}</strong></p>
+    <p>Size:<strong>{{ss}}</strong></p><br>
+    <button>Choose Squad</button>
+</div>
+    <div class="femme">
+        <p > our name: <strong> {{fn}}</strong></p>
+        <p>Our cause:<strong>{{fc}}</strong></p>
+        <p>Sex:<strong>{{fg}}</strong></p>
+        <p>Size:<strong>{{fs}}</strong></p><br>
+        <button>Choose Squad</button>
+    </div>
+  <div class="sbots">
+      <p > our name: <strong> {{bn}}</strong></p>
+      <p>Our cause:<strong>{{bc}}</strong></p>
+      <p>Sex:<strong>{{bg}}</strong></p>
+      <p>Size:<strong>{{bs}}</strong></p><br>
+      <button>Choose Squad</button>
+  </div>
+    <p class="contactus2">Contact us</p>
+    <p class="email2">Email  heroine@google.com</p>
+    <p class="phone2">Phone +134 (909)-12356789</p>
+    <p class="follow2">Follow us on</p>
+    <p class="twitter2">Twitter @Heroine123</p>
+    <p class="instagram2">Instagram @Heroine</p>
+    <p class="copy2">copyright</p>
+    <p class="heroinedown2">Heroine 2021</p>
+{{/partial}}
+<div class="footer2">
+
+</div>
+</body>
+
+</html>
+{{> layout.hbs}}

@@ -40,6 +40,11 @@ public class App {
 
         }, new HandlebarsTemplateEngine());
         get("/form", (request, response) -> {
+//            request.session().attribute("name", name);
+//            request.session().attribute("power", power);
+//            request.session().attribute("weakness", weakness);
+//            request.session().attribute("age", age);
+//            request.session().attribute("height", height);
             name = request.queryParams("name");
             power = request.queryParams("power");
             weakness = request.queryParams("weakness");
@@ -67,6 +72,11 @@ public class App {
             model.put("bc",spinBots.getCause());
             model.put("bg",spinBots.getGender());
             model.put("bs",spinBots.getSize());
+//            model.put("name", request.session().attribute("name"));
+//            model.put("power", request.session().attribute("power"));
+//            model.put("weakness", request.session().attribute("weakness"));
+//            model.put("age", request.session().attribute("age"));
+//            model.put("height", request.session().attribute("height"));
             model.put("name",name);
             model.put("power",power);
             model.put("weakness",weakness);
