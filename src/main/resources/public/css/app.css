@@ -279,8 +279,8 @@ color: #000000;
 }
 .input2{
 position: absolute;
-width: 141px;
-height: 36px;
+width: 173px;
+height: 35px;
 left: 371px;
 top: 215px;
 
@@ -305,10 +305,11 @@ color: #000000;
 }
 .input3{
 position: absolute;
-width: 157px;
-height: 39px;
+width: 173px;
+height: 35px;
 left: 109px;
 top: 350px;
+border-radius:8px;
 
 background: #F2F2F2;
 }
@@ -330,8 +331,8 @@ color: #000000;
 }
 .input4{
 position: absolute;
-width: 147px;
-height: 44px;
+width: 173px;
+height: 35px;
 left: 380px;
 top: 350px;
 
@@ -356,10 +357,11 @@ color: #000000;
 }
 .input5{
 position: absolute;
-width: 156px;
-height: 38px;
+width: 173px;
+height: 35px;
 left: 102px;
 top: 470px;
+border-radius:8px;
 
 background: #F2F2F2;
 }
@@ -411,13 +413,13 @@ color: #000000;
 position: absolute;
 width: 156px;
 height: 24px;
-left: 300px;
+left: 325px;
 top: 1289px;
 
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
+font-size: 16px;
 line-height: 24px;
 /* identical to box height */
 
@@ -727,6 +729,49 @@ color: #FFFFFF;
 
 
 }
+.diverssquad{
+position:absolute;
+top:2340px;
+left:270px;
+font-size:20px;
+}
+.daylight{
+position:absolute;
+top:2340px;
+left:700px;
+font-size:20px;
+}
+.femme{
+position:absolute;
+top:2340px;
+left:1180px;
+font-size:20px;
+
+}
+.sbots{
+position:absolute;
+top:3000px;
+left:700px;
+font-size:20px;
+}
+button{
+background: #060606;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+border:none;
+border-radius:8px;
+width: 130px;
+height: 37px;
+
+}
+
+
+
 
 
 
