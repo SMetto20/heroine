@@ -414,13 +414,13 @@ color: #000000;
 position: absolute;
 width: 156px;
 height: 24px;
-left: 670px;
+left: 500px;
 top: 1250px;
 
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 20px;
 line-height: 24px;
 /* identical to box height */
 
@@ -432,7 +432,7 @@ color: #000000;
 position: absolute;
 width: 171px;
 height: 24px;
-left: 670px;
+left: 500px;
 top: 1330px;
 
 font-family: 'Poppins';
@@ -451,7 +451,7 @@ color: #000000;
 position: absolute;
 width: 129px;
 height: 24px;
-left: 670px;
+left: 500px;
 top: 1400px;
 
 font-family: 'Poppins';
@@ -469,7 +469,7 @@ color: #000000;
 position: absolute;
 width: 155px;
 height: 24px;
-left: 670px;
+left: 500px;
 top: 1484px;
 
 font-family: 'Poppins';
@@ -487,7 +487,7 @@ color: #000000;
 position: absolute;
 width: 139px;
 height: 24px;
-left: 670px;
+left: 500px;
 top: 1557px;
 
 font-family: 'Poppins';
@@ -697,7 +697,7 @@ color: #FFFFFF;
 position: absolute;
 width: 77px;
 height: 24px;
-left: 830px;
+left: 900px;
 top: 1319px;
 
 font-family: 'Poppins';
@@ -715,7 +715,7 @@ color: #FFFFFF;
 position: absolute;
 width: 100px;
 height: 24px;
-left: 830px;
+left: 900px;
 top: 1353px;
 
 font-family: 'Poppins';
@@ -862,7 +862,7 @@ position: absolute;
 width: 159px;
 height: 24px;
 left: 1200px;
-top: 3500px;
+top: 3520px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -880,7 +880,7 @@ position: absolute;
 width: 166px;
 height: 24px;
 left: 1200px;
-top: 3380px;
+top: 3580px;
 
 font-family: 'Poppins';
 font-style: normal;

@@ -71,7 +71,7 @@ color: #FFFFFF;
 position: absolute;
 width: 128px;
 height: 36px;
-left: 1233px;
+left: 1500px;
 top: 18px;
 
 font-family: 'Poppins';
@@ -163,7 +163,7 @@ background: #0E1429;
 position: absolute;
 width: 216px;
 height: 46px;
-left: 230px;
+left: 350px;
 top: 596px;
 
 background: #0E1429;
@@ -200,7 +200,7 @@ background: rgba(156, 223, 227, 0.2);
 }
 .form{
 position: absolute;
-width: 800px;
+width: 850px;
 height: 730px;
 left: 5px;
 top: 4px;
@@ -370,7 +370,7 @@ background: #F2F2F2;
 position: absolute;
 width: 157px;
 height: 37px;
-left: 350px;
+left: 250px;
 top: 580px;
 
 background: #060606;
@@ -389,7 +389,7 @@ border-radius:8px;
 position: absolute;
       width: 722px;
       height: 734px;
-      left: 800px;
+      left: 980px;
       top: 133px;
 }
 .details{
@@ -574,7 +574,7 @@ background: #0E1429;
 position: absolute;
 width: 132px;
 height: 34px;
-left: 1550px;
+left: 500px;
 top: 1122px;
 
 font-family: 'Poppins';
@@ -590,7 +590,7 @@ color: #FFFFFF;
 position: absolute;
 width: 132px;
 height: 34px;
-left: 205px;
+left: 500px;
 top: 1150px;
 
 font-family: 'Poppins';
@@ -606,7 +606,7 @@ color: #FFFFFF;
 position: absolute;
 width: 221px;
 height: 24px;
-left: 210px;
+left: 500px;
 top: 1230px;
 
 font-family: 'Poppins';
@@ -937,7 +937,7 @@ top: 1570px;
 position:absolute;
 top:3160px;
 color:black;
-left:650px;
+left:830px;
 widht:119px;
 height:19px;
 font-size:26px;
@@ -947,7 +947,7 @@ position:absolute;
 top: 3200px;
 color:black;
 border-radius:8px;
-left:700px;
+left:840px;
 width: 173px;
 height: 35px;
 }
@@ -959,7 +959,7 @@ left:800px;
 button{
 position:absolute;
 top:3260px;
-left:830px;
+left:870px;
 
 
 
