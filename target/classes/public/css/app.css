@@ -7,7 +7,7 @@
 }
 .nav{
 position: absolute;
-width: 1512px;
+width: 1900px;
 height: 72px;
 left: 0px;
 top: 0px;
@@ -35,7 +35,7 @@ color: #FFFFFF;
 position: absolute;
 width: 71px;
 height: 36px;
-left: 825px;
+left: 950px;
 top: 19px;
 
 font-family: 'Poppins';
@@ -53,7 +53,7 @@ color: #FFFFFF;
 position: absolute;
 width: 199px;
 height: 36px;
-left: 980px;
+left: 1200px;
 top: 18px;
 
 font-family: 'Poppins';
@@ -89,7 +89,7 @@ color: #FFFFFF;
 position: absolute;
 width: 526px;
 height: 78px;
-left: 110px;
+left: 270px;
 top: 336px;
 
 font-family: 'Poppins';
@@ -107,13 +107,13 @@ color: #000000;
 position: absolute;
 width: 408px;
 height: 18px;
-left: 170px;
+left: 300px;
 top: 434px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
+font-size: 17px;
 line-height: 18px;
 
 color: #000000;
@@ -122,13 +122,13 @@ color: #000000;
 position: absolute;
 width: 364px;
 height: 19px;
-left: 200px;
+left: 320px;
 top: 473px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 17px;
 line-height: 19px;
 
 color: #000000;
@@ -138,13 +138,13 @@ color: #000000;
 position: absolute;
 width: 455px;
 height: 19px;
-left: 150px;
+left: 280px;
 top: 524px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 17px;
 line-height: 19px;
 
 color: #000000;
@@ -152,7 +152,7 @@ color: #000000;
 }
 .footer{
 position: absolute;
-width: 1514px;
+width: 1900px;
 height: 321px;
 left: 0px;
 top: 1068px;
@@ -182,7 +182,7 @@ color: #FFFFFF;
 position: absolute;
 width: 481px;
 height: 648px;
-left: 607px;
+left: 750px;
 top: 194px;
 
 }
@@ -192,7 +192,7 @@ border-radius:100%;
 position: absolute;
 width: 684px;
 height: 885px;
-left: 475px;
+left: 600px;
 top: 97px;
 
 background: rgba(156, 223, 227, 0.2);
@@ -200,7 +200,7 @@ background: rgba(156, 223, 227, 0.2);
 }
 .form{
 position: absolute;
-width: 650px;
+width: 800px;
 height: 730px;
 left: 5px;
 top: 4px;
@@ -210,7 +210,7 @@ background: #FFFFFF;
 }
 .overallform{
 position: absolute;
-width: 1411px;
+width: 1760px;
 height: 741px;
 left: 20px;
 top: 133px;
@@ -370,7 +370,7 @@ background: #F2F2F2;
 position: absolute;
 width: 157px;
 height: 37px;
-left: 249px;
+left: 350px;
 top: 580px;
 
 background: #060606;
@@ -389,14 +389,14 @@ border-radius:8px;
 position: absolute;
       width: 722px;
       height: 734px;
-      left: 665px;
+      left: 800px;
       top: 133px;
 }
 .details{
 position: absolute;
 width: 417px;
 height: 96px;
-left: 539px;
+left: 750px;
 top: 1049px;
 
 font-family: 'Poppins';
@@ -414,8 +414,8 @@ color: #000000;
 position: absolute;
 width: 156px;
 height: 24px;
-left: 325px;
-top: 1289px;
+left: 670px;
+top: 1250px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -432,13 +432,13 @@ color: #000000;
 position: absolute;
 width: 171px;
 height: 24px;
-left: 325px;
-top: 1358px;
+left: 670px;
+top: 1330px;
 
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 20px;
 line-height: 24px;
 /* identical to box height */
 
@@ -451,13 +451,13 @@ color: #000000;
 position: absolute;
 width: 129px;
 height: 24px;
-left: 325px;
-top: 1419px;
+left: 670px;
+top: 1400px;
 
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 20px;
 line-height: 24px;
 /* identical to box height */
 
@@ -469,13 +469,13 @@ color: #000000;
 position: absolute;
 width: 155px;
 height: 24px;
-left: 330px;
+left: 670px;
 top: 1484px;
 
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 20px;
 line-height: 24px;
 /* identical to box height */
 
@@ -487,13 +487,13 @@ color: #000000;
 position: absolute;
 width: 139px;
 height: 24px;
-left: 332px;
+left: 670px;
 top: 1557px;
 
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 20px;
 line-height: 24px;
 /* identical to box height */
 
@@ -505,7 +505,7 @@ color: #000000;
 position: absolute;
 width: 533px;
 height: 362px;
-left: 553px;
+left: 850px;
 top: 1213px;
 }
 .squad{
@@ -517,7 +517,7 @@ display flex
 position: absolute;
 width: 527px;
 height: 96px;
-left: 556px;
+left: 700px;
 top: 1729px;
 
 font-family: 'Poppins';
@@ -542,28 +542,28 @@ top: 1846px;
 position: absolute;
 width: 360px;
 height: 423px;
-left: 583px;
+left: 700px;
 top: 1862px;
 
 }
 .wonder{
 position: absolute;
-width: 326px;
+
 height: 391px;
-left: 1063px;
+left: 1300px;
 top: 1852px;
 }
 .bot{
 position: absolute;
 width: 269px;
 height: 375px;
-left: 640px;
+left: 770px;
 top: 2570px;
 
 }
 .footer2{
 position: absolute;
-width: 1514px;
+width: 1900px;
 height: 321px;
 left: 0px;
 top: 3400px;
@@ -574,7 +574,7 @@ background: #0E1429;
 position: absolute;
 width: 132px;
 height: 34px;
-left: 205px;
+left: 1550px;
 top: 1122px;
 
 font-family: 'Poppins';
@@ -643,7 +643,7 @@ color: #FFFFFF;
 position: absolute;
 width: 146px;
 height: 36px;
-left: 928px;
+left: 1200px;
 top: 1121px;
 
 font-family: 'Poppins';
@@ -661,7 +661,7 @@ color: #FFFFFF;
 position: absolute;
 width: 159px;
 height: 24px;
-left: 929px;
+left: 1200px;
 top: 1176px;
 
 font-family: 'Poppins';
@@ -679,7 +679,7 @@ color: #FFFFFF;
 position: absolute;
 width: 166px;
 height: 24px;
-left: 926px;
+left: 1200px;
 top: 1225px;
 
 font-family: 'Poppins';
@@ -697,7 +697,7 @@ color: #FFFFFF;
 position: absolute;
 width: 77px;
 height: 24px;
-left: 710px;
+left: 830px;
 top: 1319px;
 
 font-family: 'Poppins';
@@ -715,7 +715,7 @@ color: #FFFFFF;
 position: absolute;
 width: 100px;
 height: 24px;
-left: 698px;
+left: 830px;
 top: 1353px;
 
 font-family: 'Poppins';
@@ -733,26 +733,26 @@ color: #FFFFFF;
 .diverssquad{
 position:absolute;
 top:2340px;
-left:270px;
+left:300px;
 font-size:20px;
 }
 .daylight{
 position:absolute;
 top:2340px;
-left:700px;
+left:800px;
 font-size:20px;
 }
 .femme{
 position:absolute;
 top:2340px;
-left:1180px;
+left:1400px;
 font-size:20px;
 
 }
 .sbots{
 position:absolute;
 top:3000px;
-left:700px;
+left:820px;
 font-size:20px;
 }
 button{
@@ -843,7 +843,7 @@ color: #FFFFFF;
 position: absolute;
 width: 146px;
 height: 36px;
-left: 928px;
+left: 1200px;
 top: 3450px;
 
 font-family: 'Poppins';
@@ -861,7 +861,7 @@ color: #FFFFFF;
 position: absolute;
 width: 159px;
 height: 24px;
-left: 929px;
+left: 1200px;
 top: 3500px;
 
 font-family: 'Poppins';
@@ -879,7 +879,7 @@ color: #FFFFFF;
 position: absolute;
 width: 166px;
 height: 24px;
-left: 926px;
+left: 1200px;
 top: 3380px;
 
 font-family: 'Poppins';
@@ -897,8 +897,8 @@ color: #FFFFFF;
 position: absolute;
 width: 77px;
 height: 24px;
-left: 710px;
-top: 3450px;
+left: 830px;
+top: 3650px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -915,8 +915,8 @@ color: #FFFFFF;
 position: absolute;
 width: 100px;
 height: 24px;
-left: 698px;
-top: 3480px;
+left: 830px;
+top: 3680px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -948,14 +948,18 @@ top: 3200px;
 color:black;
 border-radius:8px;
 left:700px;
+width: 173px;
+height: 35px;
 }
 h1{
 position:absolute;
-top:3260px;
-left:500px;
+top:3330px;
+left:800px;
 }
 button{
 position:absolute;
+top:3260px;
+left:830px;
 
 
 
