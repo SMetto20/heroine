@@ -566,7 +566,7 @@ position: absolute;
 width: 1514px;
 height: 321px;
 left: 0px;
-top: 3200px;
+top: 3400px;
 
 background: #0E1429;
 }
@@ -775,7 +775,7 @@ position: absolute;
 width: 132px;
 height: 34px;
 left: 205px;
-top: 3250px;
+top: 3450px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -791,7 +791,7 @@ position: absolute;
 width: 132px;
 height: 34px;
 left: 205px;
-top: 3300px;
+top: 3500px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -807,7 +807,7 @@ position: absolute;
 width: 221px;
 height: 24px;
 left: 210px;
-top: 3400px;
+top: 3600px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -844,7 +844,7 @@ position: absolute;
 width: 146px;
 height: 36px;
 left: 928px;
-top: 3250px;
+top: 3450px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -862,7 +862,7 @@ position: absolute;
 width: 159px;
 height: 24px;
 left: 929px;
-top: 3320px;
+top: 3500px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -927,6 +927,36 @@ line-height: 24px;
 
 
 color: #FFFFFF;
+
+
+}
+.divers1{
+top: 1570px;
+}
+.squadname{
+position:absolute;
+top:3160px;
+color:black;
+left:650px;
+widht:119px;
+height:19px;
+font-size:26px;
+}
+.input6{
+position:absolute;
+top: 3200px;
+color:black;
+border-radius:8px;
+left:700px;
+}
+h1{
+position:absolute;
+top:3260px;
+left:500px;
+}
+button{
+position:absolute;
+
 
 
 }

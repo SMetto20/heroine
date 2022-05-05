@@ -11,11 +11,20 @@ import spark.template.handlebars.HandlebarsTemplateEngine;
 
 
 public class App {
+    static int getHerokuAssignedPort() {
+
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        if (processBuilder.environment().get("PORT") != null) {
+            return Integer.parseInt(processBuilder.environment().get("PORT"));
+        }
+        return 4567; //return default port if heroku-port isn't set (i.e. on localhost)
+    }
     public static String name;
     public static String power;
     public static String weakness;
     public static String age;
     public static String height;
+    public static String squadname;
 
 
     public static Squad divers = new Squad(6,"saving marine life","mixed","divers");
@@ -31,8 +40,7 @@ public class App {
 
     public static void main(String[] args) {
 //
-
-
+        port(getHerokuAssignedPort());
         staticFileLocation("/public");
         get("/", (request, response) -> {
 
@@ -50,6 +58,9 @@ public class App {
             weakness = request.queryParams("weakness");
             age = request.queryParams("age");
             height = request.queryParams("height");
+            squadname=request.queryParams("squadname");
+
+
 
 
 
@@ -82,6 +93,8 @@ public class App {
             model.put("weakness",weakness);
             model.put("age",age);
             model.put("height",height);
+            model.put("squadname", squadname);
+
             model.put("squadList",squadList);
             return new ModelAndView(model, "form.hbs");
         }, new HandlebarsTemplateEngine());

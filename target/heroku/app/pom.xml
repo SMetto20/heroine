@@ -79,7 +79,7 @@
                     <!-- Change this to YOUR application name! -->
                     <appName>heroine-app</appName>
                     <processTypes>
-                        <web>java -jar target/heroine-app-1.0-jar-with-dependencies.jar</web>
+                        <web>java -jar target/heroine-1.0-jar-with-dependencies.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
